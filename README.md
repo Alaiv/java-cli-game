@@ -9,3 +9,6 @@
 
 ### Even game link:
 https://drive.google.com/file/d/1OG3AhWPHJ--PSwEDZV9FWvTQuo3pMGIS/view?usp=sharing
+
+### Calc game link:
+https://drive.google.com/file/d/1QGSz8JbGk2EPFj94cn6RGrYPuZ-T0iRG/view?usp=sharing
