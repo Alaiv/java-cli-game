@@ -8,10 +8,11 @@ public class Even {
     public static void isEven(String name) {
         System.out.println("Answer 'yes' if number even otherwise answer 'no'.");
         var answersCount = 0;
+        final var winCondition = 3;
         boolean result = true;
 
-        while (result && answersCount <= 3) {
-            if (answersCount == 3) {
+        while (result && answersCount <= winCondition) {
+            if (answersCount == winCondition) {
                 System.out.println("ConCongratulations, " + name + "!");
             } else {
                 result = isEvenGame();
@@ -22,7 +23,7 @@ public class Even {
 
     public static boolean isEvenGame() {
         Scanner sc = new Scanner(System.in);
-        var randomNumber = RandomUtils.nextInt(1, 100);
+        final var randomNumber = RandomUtils.nextInt(1, 100);
         var rightAnswer = randomNumber % 2 == 0 ? "yes" : "no";
 
         System.out.print("Question: ");

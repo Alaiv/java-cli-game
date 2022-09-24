@@ -1,7 +1,6 @@
 package hexlet.code;
 import java.util.Scanner;
-import even.Even;
-import greeting.Greeting;
+import games.Games;
 
 
 public class App {
@@ -12,7 +11,7 @@ public class App {
         Scanner scanner = new Scanner(System.in);
         var choice = scanner.nextLine();
 
-        Greeting.games(choice);
+        Games.games(choice);
     }
 
 }
