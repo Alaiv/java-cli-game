@@ -2,6 +2,7 @@ package hexlet.code;
 
 import games.Calc;
 import games.Even;
+import games.Gcd;
 
 import java.util.Scanner;
 
@@ -17,10 +18,18 @@ public class Engine {
             if (answersCount == winCondition) {
                 System.out.println("Congratulations, " + name + "!");
             } else {
-                if (type.equals("even")) {
-                    correctAnswer = Even.isEvenGame();
-                } else if (type.equals("calc")) {
-                    correctAnswer = Calc.calculate();
+                switch (type) {
+                    case "even":
+                        correctAnswer = Even.isEvenGame();
+                        break;
+                    case "calc":
+                        correctAnswer = Calc.calculate();
+                        break;
+                    case "GCD":
+                        correctAnswer = Gcd.getGcd();
+                        break;
+                    default:
+                        correctAnswer = "No answer";
                 }
 
                 System.out.print("Your answer: ");
