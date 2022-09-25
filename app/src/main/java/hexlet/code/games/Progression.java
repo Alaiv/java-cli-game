@@ -13,7 +13,7 @@ public class Progression {
     }
 
     public static String progression() {
-        final var firstNumber = RandomUtils.nextInt(0, 20);
+        final var firstNumber = RandomUtils.nextInt(1, 20);
         final var stepsOfProgression = RandomUtils.nextInt(1, 3);
         final var lengthOfProgression = 10;
         final var secondNumber = firstNumber + (lengthOfProgression * stepsOfProgression);
@@ -26,7 +26,7 @@ public class Progression {
         var splitProgression = progressionStream.toString().split(" ");
         var indexToReplace = RandomUtils.nextInt(0, splitProgression.length - 1);
         var correctAnswer = splitProgression[indexToReplace];
-        splitProgression[indexToReplace] = "...";
+        splitProgression[indexToReplace] = "..";
 
         System.out.println(String.join(" ", splitProgression));
         return correctAnswer;
