@@ -8,16 +8,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcc4ed37-2c55-431c-8c23-6cfd5d5ec0cf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/games/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/games/Calc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/games/Even.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/games/Even.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/games/Gcd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/games/Gcd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/games/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/games/Prime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/games/Progression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/games/Progression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/Cli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/app/Cli.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/app/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/games/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/app/games/Calc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/games/Even.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/app/games/Even.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/games/Gcd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/app/games/Gcd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/games/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/app/games/Prime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/games/Progression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/app/games/Progression.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,9 +102,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/build.gradle" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/hexlet/code/App.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/hexlet/code/Cli.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/hexlet/code/Engine.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/hexlet/code/app/App.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/hexlet/code/app/Cli.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/hexlet/code/app/Engine.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -130,13 +130,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalResources&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.app [run]">
-    <configuration name="hexlet.code.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hexlet.code.App" />
+  <component name="RunManager" selected="Gradle.app [clean]">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hexlet.code.app.App" />
       <module name="app.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hexlet.code.*" />
+          <option name="PATTERN" value="hexlet.code.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.app [clean]" />
         <item itemvalue="Gradle.app [run]" />
         <item itemvalue="Gradle.app [installDist]" />
-        <item itemvalue="Gradle.app [clean]" />
         <item itemvalue="Gradle.app [checkstyleMain]" />
-        <item itemvalue="Application.hexlet.code.App" />
+        <item itemvalue="Application.hexlet.code.app.App" />
       </list>
     </recent_temporary>
   </component>
