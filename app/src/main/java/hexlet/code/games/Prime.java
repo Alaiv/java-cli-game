@@ -17,7 +17,7 @@ public class Prime {
 
     private static boolean checkForPrime(int num) {
         var number = Math.sqrt(num);
-        for (int i = 2; i < number; i++) {
+        for (int i = 2; i <= number; i++) {
             if (num % i == 0) {
                 return false;
             }
