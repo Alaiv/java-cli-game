@@ -1,14 +1,12 @@
 package games;
 
-import hexlet.code.Cli;
 import hexlet.code.Engine;
 import org.apache.commons.lang3.RandomUtils;
 
 public class Calc {
     public static void calc() {
-        var name = Cli.greeting();
-        System.out.println("What is the result of the expression?");
-        Engine.questions(name, "calc");
+        var message = "What is the result of the expression?";
+        Engine.questions("calc", message);
     }
 
     public static String calculate() {

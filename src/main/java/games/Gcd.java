@@ -1,14 +1,12 @@
 package games;
 
-import hexlet.code.Cli;
 import hexlet.code.Engine;
 import org.apache.commons.lang3.RandomUtils;
 
 public class Gcd {
     public static void gcd() {
-        var name = Cli.greeting();
-        System.out.println("Find the greatest common divisor of given numbers.");
-        Engine.questions(name, "GCD");
+        var message = "Find the greatest common divisor of given numbers.";
+        Engine.questions("GCD", message);
     }
 
     public static String getGcd() {

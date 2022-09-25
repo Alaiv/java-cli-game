@@ -1,14 +1,17 @@
 package hexlet.code;
 
+import games.Progression;
+import games.Gcd;
 import games.Calc;
 import games.Even;
-import games.Gcd;
-import games.Progression;
-
+import games.Prime;
 import java.util.Scanner;
 
 public class Engine {
-    public static void questions(String name, String type) {
+    public static void questions(String type, String message) {
+        var name = Cli.greeting();
+        System.out.println(message);
+
         Scanner sc = new Scanner(System.in);
         int answersCount = 0;
         final var winCondition = 3;
@@ -38,24 +41,15 @@ public class Engine {
     }
 
     private static String obtainAnswer(String type) {
-        String correctAnswer;
+        String correctAnswer = switch (type) {
+            case "even" -> Even.isEvenGame();
+            case "calc" -> Calc.calculate();
+            case "GCD" -> Gcd.getGcd();
+            case "progression" -> Progression.progression();
+            case "prime" -> Prime.obtainPrime();
+            default -> "No answer";
+        };
 
-        switch (type) {
-            case "even":
-                correctAnswer = Even.isEvenGame();
-                break;
-            case "calc":
-                correctAnswer = Calc.calculate();
-                break;
-            case "GCD":
-                correctAnswer = Gcd.getGcd();
-                break;
-            case "progression":
-                correctAnswer = Progression.progression();
-                break;
-            default:
-                correctAnswer = "No answer";
-        }
         return correctAnswer;
     }
 }

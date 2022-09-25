@@ -12,8 +12,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/games/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/Calc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/games/Even.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/Even.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/games/Gcd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/Gcd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/games/Progression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/Progression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/Cli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/Cli.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/Engine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +124,7 @@
     "settings.editor.selected.configurable": "preferences.externalResources"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.app [run]">
+  <component name="RunManager" selected="Gradle.app [installDist]">
     <configuration name="hexlet.code.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hexlet.code.App" />
       <module name="app.main" />
@@ -224,10 +224,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.app [run]" />
         <item itemvalue="Gradle.app [installDist]" />
-        <item itemvalue="Gradle.app [checkstyleMain]" />
         <item itemvalue="Gradle.app [clean]" />
+        <item itemvalue="Gradle.app [checkstyleMain]" />
+        <item itemvalue="Gradle.app [run]" />
         <item itemvalue="Application.hexlet.code.App" />
       </list>
     </recent_temporary>

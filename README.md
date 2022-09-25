@@ -18,3 +18,6 @@ https://drive.google.com/file/d/1Uy7Ko74hQv4NlFeJtsUTEBoipnf9QEEs/view?usp=shari
 
 ### Progression game link:
 https://drive.google.com/file/d/1a8KgYSHmgcpXG8rWB75mrKi59nF7b4eA/view?usp=sharing
+
+### Prime game link:
+https://drive.google.com/file/d/1KefVcdZKcZHI845gfc2ZZFe9w8FLwHF9/view?usp=sharing

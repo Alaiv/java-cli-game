@@ -1,6 +1,5 @@
 package games;
 
-import hexlet.code.Cli;
 import hexlet.code.Engine;
 import org.apache.commons.lang3.RandomUtils;
 
@@ -9,9 +8,8 @@ import java.util.StringJoiner;
 public class Progression {
 
     public static void startProgression() {
-        var name = Cli.greeting();
-        System.out.println("What number is missing in the progression?");
-        Engine.questions(name, "progression");
+        var message = "What number is missing in the progression?";
+        Engine.questions("progression", message);
     }
 
     public static String progression() {

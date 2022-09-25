@@ -1,14 +1,12 @@
 package games;
 
-import hexlet.code.Cli;
 import hexlet.code.Engine;
 import org.apache.commons.lang3.RandomUtils;
 
 public class Even {
     public static void isEven() {
-        var name = Cli.greeting();
-        System.out.println("Answer 'yes' if number even otherwise answer 'no'.");
-        Engine.questions(name, "even");
+        var message = "Answer 'yes' if number even otherwise answer 'no'.";
+        Engine.questions("even", message);
     }
 
     public static String isEvenGame() {
