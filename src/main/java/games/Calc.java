@@ -1,10 +1,12 @@
 package games;
 
+import hexlet.code.Cli;
 import hexlet.code.Engine;
 import org.apache.commons.lang3.RandomUtils;
 
 public class Calc {
-    public static void calc(String name) {
+    public static void calc() {
+        var name = Cli.greeting();
         System.out.println("What is the result of the expression?");
         Engine.questions(name, "calc");
     }
@@ -16,7 +18,7 @@ public class Calc {
         String[] operations = {"+", "*", "-"};
         var typeOfOperation = operations[randomOperation];
         int correctAnswer;
-        System.out.print("Question: ");
+
         if (typeOfOperation.equals("+")) {
             System.out.println(firstNumber + " + " + secondNumber);
             correctAnswer = firstNumber + secondNumber;
@@ -27,6 +29,7 @@ public class Calc {
             System.out.println(firstNumber + " * " + secondNumber);
             correctAnswer = firstNumber * secondNumber;
         }
+
         return Integer.toString(correctAnswer);
     }
 }
