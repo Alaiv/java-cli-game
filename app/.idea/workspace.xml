@@ -9,12 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bcc4ed37-2c55-431c-8c23-6cfd5d5ec0cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/games/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/Calc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/games/Even.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/Even.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/games/Gcd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/Gcd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/games/Progression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/games/Progression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/Engine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +111,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
     "last_opened_file_path": "C:/practice",
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.0",
