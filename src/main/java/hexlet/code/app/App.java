@@ -1,4 +1,4 @@
-package hexlet.code;
+package hexlet.code.app;
 
 import games.Progression;
 import games.Gcd;
@@ -6,7 +6,7 @@ import games.Calc;
 import games.Even;
 import games.Prime;
 import java.util.Scanner;
-
+import hexlet.code.Cli;
 
 public class App {
     public static void main(String[] args) {
