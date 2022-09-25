@@ -1,6 +1,6 @@
-package hexlet.code.app.games;
+package hexlet.code.games;
 
-import hexlet.code.app.Engine;
+import hexlet.code.Engine;
 import org.apache.commons.lang3.RandomUtils;
 
 public class Gcd {
