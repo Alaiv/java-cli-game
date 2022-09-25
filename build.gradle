@@ -24,7 +24,7 @@ test {
 }
 
 application {
-    mainClass = 'hexlet.code.app.App'
+    mainClass = 'hexlet.code.App'
 }
 
 compileJava {
