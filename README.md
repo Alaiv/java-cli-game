@@ -17,7 +17,7 @@ https://drive.google.com/file/d/1QGSz8JbGk2EPFj94cn6RGrYPuZ-T0iRG/view?usp=shari
 https://drive.google.com/file/d/1Uy7Ko74hQv4NlFeJtsUTEBoipnf9QEEs/view?usp=sharing
 
 ### Progression game link:
-https://drive.google.com/file/d/1a8KgYSHmgcpXG8rWB75mrKi59nF7b4eA/view?usp=sharing
+https://drive.google.com/file/d/1HXvTMdrn-b9fXPJ92oBJCRgWJMPeJ854/view?usp=sharing
 
 ### Prime game link:
-https://drive.google.com/file/d/1KefVcdZKcZHI845gfc2ZZFe9w8FLwHF9/view?usp=sharing
+https://drive.google.com/file/d/17KkfAZL74iN6nOEJimwQOwIYoKFOuraM/view?usp=sharing
