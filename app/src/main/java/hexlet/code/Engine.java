@@ -1,10 +1,6 @@
 package hexlet.code;
 
-import hexlet.code.games.Progression;
-import hexlet.code.games.Gcd;
-import hexlet.code.games.Calc;
-import hexlet.code.games.Even;
-import hexlet.code.games.Prime;
+import hexlet.code.games.*;
 
 import java.util.Scanner;
 
@@ -23,26 +19,29 @@ public class Engine {
             if (answersCount == winCondition) {
                 System.out.println("Congratulations, " + name + "!");
             } else {
-                System.out.print("Question: ");
                 correctAnswer = obtainAnswer(type);
-                System.out.print("Your answer: ");
                 var answer = sc.nextLine();
 
                 if (answer.equals(correctAnswer)) {
                     System.out.println("Correct!");
                 } else {
-                    System.out.println(answer
-                            + " is wrong answer ;(. Correct answer was "
-                            + correctAnswer + ".");
-                    System.out.println("Let's try again, " + name + "!");
-                    userCorrect = false;
+                    userCorrect = falseAnswer(answer, correctAnswer, name);
                 }
             }
             answersCount++;
         }
     }
 
+    private static boolean falseAnswer(String answer, String correctAnswer, String name) {
+        System.out.println(answer
+                + " is wrong answer ;(. Correct answer was "
+                + correctAnswer + ".");
+        System.out.println("Let's try again, " + name + "!");
+        return false;
+    }
+
     private static String obtainAnswer(String type) {
+        System.out.print("Question: ");
         String correctAnswer = switch (type) {
             case "even" -> Even.isEvenGame();
             case "calc" -> Calc.calculate();
@@ -51,7 +50,7 @@ public class Engine {
             case "prime" -> Prime.obtainPrime();
             default -> "No answer";
         };
-
+        System.out.print("Your answer: ");
         return correctAnswer;
     }
 }
